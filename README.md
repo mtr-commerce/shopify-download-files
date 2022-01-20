@@ -1,6 +1,11 @@
 # shopify-download-files
 
-  ```var simulateClick = function (elem) {
+## Steps
+
+### 1. Go to files page: https://YOUR_STORE_NAME_HERE.myshopify.com/admin/settings/files?limit=250
+### 2. Open the browser JS console.
+### 3. Copy and paste the following snippet in the console.
+```var simulateClick = function (elem) {
 	var evt = new MouseEvent('click', {
 		bubbles: true,
 		cancelable: true,
@@ -36,3 +41,5 @@ files.push('<html>\n<body>')
 fetchPageAssets()
 files.push('</body>\n</html>\n')
 downloadListFile()```
+
+### 4.
